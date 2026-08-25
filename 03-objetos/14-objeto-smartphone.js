@@ -3,4 +3,10 @@
 // Mostre o objeto completo no console.
 //
 // Escreva sua solução abaixo:
-
+const smartphone = {
+    marca: "Xiaomi",
+    modelo: "Redmi Note",
+    armazenamento: 256,
+    ligado: true
+};
+console.log(smartphone);

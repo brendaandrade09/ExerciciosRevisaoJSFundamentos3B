@@ -4,4 +4,10 @@
 // Mostre a área com duas casas decimais.
 //
 // Escreva sua solução abaixo:
-
+const circulo = {
+    raio: 5,
+    calcularArea() {
+        return Math.PI * circulo.raio * circulo.raio;
+    }
+}
+console.log(circulo.calcularArea().toFixed(2));

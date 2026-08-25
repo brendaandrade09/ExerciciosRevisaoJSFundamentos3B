@@ -3,4 +3,12 @@
 // O método deve utilizar this e retornar uma frase com os dados do curso.
 //
 // Escreva sua solução abaixo:
+const curso = {
+    nome: "Marketing",
+    modalidade: "presencial",
 
+    descrever() {
+        console.log(`O curso ${this.nome} é realizado na modalidade ${this.modalidade}.`)
+    }
+}
+curso.descrever();

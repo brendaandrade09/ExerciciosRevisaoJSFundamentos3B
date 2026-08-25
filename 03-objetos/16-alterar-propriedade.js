@@ -4,4 +4,12 @@
 // Mostre o objeto antes e depois das alterações.
 //
 // Escreva sua solução abaixo:
-
+let ingresso = {
+    evento: "Musical Hamilton",
+    preco: 50,
+    quantidade: 2
+};
+console.log(ingresso);
+ingresso.preco = 45;
+ingresso.quantidade = 4;
+console.log(ingresso);
