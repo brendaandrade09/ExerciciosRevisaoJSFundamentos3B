@@ -7,3 +7,15 @@
 //
 // Escreva sua solução abaixo:
 
+class Venda {
+    constructor(valor, porcentagem) {
+        this.valor = valor;
+        this.porcentagem = porcentagem;
+    }
+    calcularComissao() {
+        return console.log((this.valor * this.porcentagem) / 100);
+    }
+}
+
+venda1 = new Venda(800, 5);
+venda1.calcularComissao();

@@ -4,4 +4,13 @@
 // e "Frete pago" nos demais casos.
 //
 // Escreva sua solução abaixo:
-
+class Frete {
+    constructor(valor) {
+        this.valor = valor;
+    }
+    verificarFrete(){
+    return console.log(this.valor >= 150 ? "Frete grátis" : "Frete pago");
+}
+}
+compra1 = new Frete(149);
+compra1.verificarFrete();
