@@ -4,4 +4,6 @@
 // e mostre o resultado.
 //
 // Escreva sua solução abaixo:
-
+const reserva = { hospede: "Fulano", codigo: 101, numeroNoites: 5 };
+const json = JSON.stringify(reserva);
+console.log(json);

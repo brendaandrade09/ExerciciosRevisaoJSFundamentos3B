@@ -3,4 +3,6 @@
 // Converta-a em objeto utilizando JSON.parse() e mostre somente a duração.
 //
 // Escreva sua solução abaixo:
-
+const curso = '{"titulo": "Curso de Node.js", "duracao": 40,"ativo":true}';
+const json = JSON.parse(curso);
+console.log(json.duracao);

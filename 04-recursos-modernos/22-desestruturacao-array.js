@@ -4,4 +4,6 @@
 // Mostre as três variáveis.
 //
 // Escreva sua solução abaixo:
-
+const linguagensProgramacao = ["JavaScript", "C#", "Python"];
+const [primeira, segunda, terceira] = linguagensProgramacao;
+console.log(primeira, segunda, terceira);

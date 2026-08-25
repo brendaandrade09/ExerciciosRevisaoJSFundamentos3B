@@ -5,4 +5,13 @@
 // Mostre o status e os clientes recebidos.
 //
 // Escreva sua solução abaixo:
-
+const resposta={
+    status : true,
+    quantidade : 3,
+    clientes : ["Fulano", "Beltrano"]
+}
+const json = JSON.stringify(resposta);
+console.log(json);
+const objetoNovamente = JSON.parse(json);
+console.log(objetoNovamente);
+console.log(resposta.status, resposta.clientes);
