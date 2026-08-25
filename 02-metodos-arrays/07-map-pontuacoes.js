@@ -4,4 +4,7 @@
 // Mostre o array original e o novo array.
 //
 // Escreva sua solução abaixo:
-
+const pontuacao = [20, 35, 40, 55];
+console.log(pontuacao);
+const pontosMaisCinco = pontuacao.map((num) => num + 5);
+console.log(pontosMaisCinco);

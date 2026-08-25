@@ -4,4 +4,11 @@
 // Mostre o aluno encontrado.
 //
 // Escreva sua solução abaixo:
-
+const alunos = [
+    { nome: "Mat", matricula: 101 },
+    { nome: "Lukz", matricula: 102 },
+    { nome: "Mel", matricula: 103 },
+    { nome: "Jaque", matricula: 104 }
+];
+const aluno = alunos.find((procura) => procura.matricula === 103);
+console.log(aluno);

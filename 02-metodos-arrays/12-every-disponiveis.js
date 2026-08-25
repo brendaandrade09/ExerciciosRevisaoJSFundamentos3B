@@ -4,4 +4,6 @@
 // Mostre true ou false.
 //
 // Escreva sua solução abaixo:
-
+const quantidades = [4, 2, 7, 1, 6];
+const produtosDisponiveis = quantidades.every((qtd) => qtd > 0);
+console.log(produtosDisponiveis);

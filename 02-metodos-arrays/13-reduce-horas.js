@@ -4,4 +4,6 @@
 // Mostre o resultado.
 //
 // Escreva sua solução abaixo:
-
+const horasTrabalhadas = [8, 7, 8, 6, 8];
+const total = horasTrabalhadas.reduce((acumulador, valor) => acumulador + valor, 0);
+console.log(total);
