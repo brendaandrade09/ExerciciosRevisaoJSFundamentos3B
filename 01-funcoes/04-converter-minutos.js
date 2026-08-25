@@ -4,4 +4,7 @@
 // Lembrete: um minuto possui 60 segundos.
 //
 // Escreva sua solução abaixo:
-
+function converteMinutosSegundos(minutos) {
+    return minutos * 60;
+}
+console.log(`${converteMinutosSegundos(5)} segundos.`)

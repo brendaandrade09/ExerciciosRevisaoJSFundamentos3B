@@ -6,16 +6,8 @@
 // Saída esperada: Comissão: R$ 40
 //
 // Escreva sua solução abaixo:
-
-class Venda {
-    constructor(valor, porcentagem) {
-        this.valor = valor;
-        this.porcentagem = porcentagem;
-    }
-    calcularComissao() {
-        return console.log((this.valor * this.porcentagem) / 100);
-    }
+function calcularComissao(valorVenda, porcentagemComissao) {
+    return console.log(`Comissão: R$${(valorVenda * porcentagemComissao) / 100},00.`);
 }
-
-venda1 = new Venda(800, 5);
-venda1.calcularComissao();
+let comissao = calcularComissao(800, 5);
+console.log(comissao);

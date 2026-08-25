@@ -4,4 +4,7 @@
 // Teste a função e mostre o resultado no console.
 //
 // Escreva sua solução abaixo:
-
+function rendimentoCarro(distanciaPercorrida, litrosUsados) {
+    return distanciaPercorrida / litrosUsados;
+}
+console.log(`Consumo médio: ${rendimentoCarro(100, 10)}km/L.`)

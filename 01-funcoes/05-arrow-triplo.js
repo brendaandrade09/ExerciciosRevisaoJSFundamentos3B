@@ -3,4 +3,7 @@
 // o triplo desse número. Teste a função com o número 12.
 //
 // Escreva sua solução abaixo:
-
+const triplo = (a) => {
+    return a * 3;
+}
+console.log(triplo(12));
